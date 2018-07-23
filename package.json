@@ -19,7 +19,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "extend": "~1.2.1",
+    "extend": "~2.0.2",
     "browserify-mime": "~1.2.9",
     "json-edm-parser": "0.1.2",
     "node-uuid": "~1.4.0",
