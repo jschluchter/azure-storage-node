@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - azure > azure-arm-keyvault > azure-common > request > hawk:
+        patched: '2021-08-28T21:17:54.169Z'
+    - azure > azure-arm-network > azure-common > request > hawk:
+        patched: '2021-08-28T21:17:54.169Z'
+  'npm:http-signature:20150122':
+    - azure > azure-arm-keyvault > azure-common > request > http-signature:
+        patched: '2021-08-28T21:17:54.169Z'
+    - azure > azure-arm-network > azure-common > request > http-signature:
+        patched: '2021-08-28T21:17:54.169Z'
+  'npm:mime:20170907':
+    - azure > azure-arm-keyvault > azure-common > request > form-data > mime:
+        patched: '2021-08-28T21:17:54.169Z'
+    - azure > azure-arm-network > azure-common > request > form-data > mime:
+        patched: '2021-08-28T21:17:54.169Z'
+  'npm:request:20160119':
+    - azure > azure-arm-keyvault > azure-common > request:
+        patched: '2021-08-28T21:17:54.169Z'
+    - azure > azure-arm-network > azure-common > request:
+        patched: '2021-08-28T21:17:54.169Z'
+  'npm:tunnel-agent:20170305':
+    - azure > azure-arm-keyvault > azure-common > request > tunnel-agent:
+        patched: '2021-08-28T21:17:54.169Z'
+    - azure > azure-arm-network > azure-common > request > tunnel-agent:
+        patched: '2021-08-28T21:17:54.169Z'
